@@ -37,3 +37,27 @@ $ sudo pip install obfsproxy
 https://github.com/fivesheep/chnroutes
 
 > Across the Great Wall we can reach every corner in the world.
+
+# 另一个方案
+
+```
+           +-[OpenWrt router]-------+
+           |                        |
+           |  +[LAN]-------------+  |
+  me ------+--| IP: 192.168.42.1 |  |
+           |  +------------------+  |
+           |                        |
+           |  +[OpenVPN client 1]+  |   +-[OpenVPN server 1]----+
+           |  |                  |  |   | Public IP: y.y.y.y    |   /
+           |  | Iface: tun0      |--+---| Tunnel IP: 10.x.x.1   |---- { Internet
+           |  | IP: 10.x.x.x     |  |   +-----------------------+   \ 
+           |  +------------------+  |
+           |                        |
+           +------------------------+
+```
+
+## Running obfsproxy server on QNAP NAS
+
+## Running OpenWrt on TP-Link WR703N
+
+_仅供个人学习研究_
