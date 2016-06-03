@@ -1,5 +1,7 @@
 # Raspberry Pi VPN Wireless HotSpot
-基于树莓派搭建供安卓设备访问 Play 应用市场的私人无线热点。
+基于树莓派搭建供安卓设备访问 Play 应用市场的私人无线热点。(_仅供个人学习研究_)
+
+> Across the Great Wall we can reach every corner in the world.
 
 ## Wifi 热点
 
@@ -36,8 +38,6 @@ $ sudo pip install obfsproxy
 
 https://github.com/fivesheep/chnroutes
 
-> Across the Great Wall we can reach every corner in the world.
-
 # 另一个方案
 
 ```
@@ -59,5 +59,3 @@ https://github.com/fivesheep/chnroutes
 ## Running obfsproxy server on QNAP NAS
 
 ## Running OpenWrt on TP-Link WR703N
-
-_仅供个人学习研究_
